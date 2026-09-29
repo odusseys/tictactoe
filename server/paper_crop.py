@@ -20,7 +20,7 @@ class PaperCropService:
             except (ImportError, OSError, RuntimeError):
                 logging.getLogger(__name__).exception('Paper segmentation initialization failed')
                 raise GameServiceError(503, 'cropping_unavailable',
-                    'Paper cropping is unavailable. Check the local vision dependencies and model files, or turn cropping off.',
+                    'Paper cropping could not initialize. Check your internet connection and server logs, then retry or turn cropping off.',
                     retryable=False) from None
         try:
             result = self.segmenter.crop_image(image_data_url)

@@ -2,9 +2,7 @@
 import base64
 import math
 import os
-from pathlib import Path
-
-MODEL_CACHE_DIR = Path(os.environ.get('VISION_MODEL_CACHE', Path.home() / '.cache/tictactoeagent/yoloe26'))
+from .assets import MODEL_CACHE_DIR, ensure_paper_assets
 os.environ.setdefault('YOLO_CONFIG_DIR', str(MODEL_CACHE_DIR / 'settings'))
 
 import cv2
@@ -31,10 +29,7 @@ class PaperSegmenter:
         self.device = 'mps' if torch.backends.mps.is_available() else 'cuda' if torch.cuda.is_available() else 'cpu'
         # CPU-only hosts keep a supported FP32 fallback; Apple/CUDA GPUs use FP16.
         self.precision = 32 if self.device == 'cpu' else 16
-        weights = MODEL_CACHE_DIR / 'yoloe-26s-seg.pt'
-        embeddings = MODEL_CACHE_DIR / 'yoloe-26s-seg-paper-only.npz'
-        if not weights.is_file() or not embeddings.is_file():
-            raise RuntimeError('Missing local paper weights/embeddings. Set VISION_MODEL_CACHE; see README.')
+        weights, embeddings = ensure_paper_assets(MODEL_CACHE_DIR)
         self.paper_model = YOLOE(str(weights))
         self.paper_model.load_prompt_embeddings(embeddings)
         if list(self.paper_model.names.values()) != ['paper']:
