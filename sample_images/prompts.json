@@ -1,0 +1,199 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-28",
+  "counts": {
+    "drawing": 3,
+    "hovering": 3,
+    "finished": 4
+  },
+  "note": "AI-generated images. Webcam quality descriptions are visual style targets, not native output resolutions. Prompts record intended boards and poses; they are not exact board-state annotations.",
+  "images": [
+    {
+      "id": "01-drawing",
+      "group": "drawing",
+      "subject": "A Black woman aged about 28 with short natural curls, wearing a mustard T-shirt, at a pale wood desk in a small home office.",
+      "camera": "Laptop webcam centered in front of her, slightly elevated and tilted down about 30 degrees, medium-wide composition with paper large in the lower half.",
+      "quality": "Clean modern 1080p webcam appearance, natural window daylight, crisp outlines, slight ordinary webcam sharpening.",
+      "board": "Top row X, O, empty; middle row empty, X, empty; bottom row O, empty, empty. She is beginning an X in the bottom-right square: one diagonal stroke finished, the pen tip visibly touching the paper midway through the crossing stroke.",
+      "action": "DRAWING RIGHT NOW. Her right hand holds a black pen in a normal writing grip with its tip physically touching the incomplete bottom-right X. Focused eyes look down at the pen tip. Other cells remain largely readable.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: A Black woman aged about 28 with short natural curls, wearing a mustard T-shirt, at a pale wood desk in a small home office.\nCamera and composition: Laptop webcam centered in front of her, slightly elevated and tilted down about 30 degrees, medium-wide composition with paper large in the lower half.\nWebcam image quality: Clean modern 1080p webcam appearance, natural window daylight, crisp outlines, slight ordinary webcam sharpening.\nGame configuration: Top row X, O, empty; middle row empty, X, empty; bottom row O, empty, empty. She is beginning an X in the bottom-right square: one diagonal stroke finished, the pen tip visibly touching the paper midway through the crossing stroke.\nCritical action and visibility: DRAWING RIGHT NOW. Her right hand holds a black pen in a normal writing grip with its tip physically touching the incomplete bottom-right X. Focused eyes look down at the pen tip. Other cells remain largely readable.",
+      "file": "01-drawing.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-0c748873-a708-46e6-8f4c-c275308c31d7.png",
+      "editPrompts": [],
+      "actual_dimensions": [
+        1370,
+        1148
+      ],
+      "bytes": 1888501
+    },
+    {
+      "id": "02-drawing",
+      "group": "drawing",
+      "subject": "An East Asian man aged about 62, balding with silver hair at the sides and rectangular glasses, wearing a burgundy cardigan, at a white kitchen table.",
+      "camera": "External webcam on a low shelf to the viewer's left, pronounced diagonal front-left view downward about 40 degrees, showing his three-quarter face and the tabletop.",
+      "quality": "Old 640 by 480 webcam look in a 4:3 composition, clearly soft and low resolution, mild blocky JPEG artifacts, flat cool indoor lighting.",
+      "board": "Top row O, X, empty; middle row X, empty, empty; bottom row empty, empty, empty. He is drawing an O in the center square, currently an almost-complete open curved circle.",
+      "action": "DRAWING RIGHT NOW. His right pen tip is in contact with the paper at the unfinished center circle. Concentrated writing posture. The other hand steadies the paper along its outer margin.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: An East Asian man aged about 62, balding with silver hair at the sides and rectangular glasses, wearing a burgundy cardigan, at a white kitchen table.\nCamera and composition: External webcam on a low shelf to the viewer's left, pronounced diagonal front-left view downward about 40 degrees, showing his three-quarter face and the tabletop.\nWebcam image quality: Old 640 by 480 webcam look in a 4:3 composition, clearly soft and low resolution, mild blocky JPEG artifacts, flat cool indoor lighting.\nGame configuration: Top row O, X, empty; middle row X, empty, empty; bottom row empty, empty, empty. He is drawing an O in the center square, currently an almost-complete open curved circle.\nCritical action and visibility: DRAWING RIGHT NOW. His right pen tip is in contact with the paper at the unfinished center circle. Concentrated writing posture. The other hand steadies the paper along its outer margin.",
+      "file": "02-drawing.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-04b001ac-e692-4ff9-ba88-d05c13876253.png",
+      "editPrompts": [],
+      "actual_dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 1685075
+    },
+    {
+      "id": "03-drawing",
+      "group": "drawing",
+      "subject": "A South Asian woman aged about 40 with a long dark braid and an olive blouse, seated alone at a dark desk in a study.",
+      "camera": "High-mounted webcam to the viewer's right, steep 55-degree diagonal downward view, face and shoulders at the top-left with the board prominent below.",
+      "quality": "Dim evening 720p webcam appearance, pronounced colored sensor noise in the shadows, warm desk-lamp lighting and mild motion blur on the moving fingers.",
+      "board": "Top row X, O, X; middle row empty, O, empty; bottom row empty, empty, empty. She is adding an X in the middle-left cell, with one diagonal and the second diagonal only partially drawn.",
+      "action": "DRAWING RIGHT NOW. She is left-handed, holding a blue ballpoint pen whose tip clearly presses against the middle-left cell at the end of the partial stroke. Her gaze follows the mark.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: A South Asian woman aged about 40 with a long dark braid and an olive blouse, seated alone at a dark desk in a study.\nCamera and composition: High-mounted webcam to the viewer's right, steep 55-degree diagonal downward view, face and shoulders at the top-left with the board prominent below.\nWebcam image quality: Dim evening 720p webcam appearance, pronounced colored sensor noise in the shadows, warm desk-lamp lighting and mild motion blur on the moving fingers.\nGame configuration: Top row X, O, X; middle row empty, O, empty; bottom row empty, empty, empty. She is adding an X in the middle-left cell, with one diagonal and the second diagonal only partially drawn.\nCritical action and visibility: DRAWING RIGHT NOW. She is left-handed, holding a blue ballpoint pen whose tip clearly presses against the middle-left cell at the end of the partial stroke. Her gaze follows the mark.",
+      "file": "03-drawing.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-f1606497-a85d-448e-8572-a8c552f98cea.png",
+      "editPrompts": [
+        "Edit this webcam photo with one precise action correction. Preserve this same woman, identity, outfit, setting, high oblique camera position, lighting, low-light noisy image quality, paper position, and 3x3 grid. Move ONLY the blue-pen-holding hand and pen so she is unmistakably ACTIVELY DRAWING the X INSIDE the middle-left cell of the grid. Replace that existing completed X with an in-progress X: one diagonal complete and the other half-complete. The blue pen tip is physically touching the end of the half-complete diagonal inside that cell, with a tiny continuous ink stroke directly under the tip. Normal realistic pen grip, hand naturally attached to forearm. Keep all other marks unchanged. No extra hands, no new objects, no captions.",
+        "Edit the attached image. The pen currently misses the stroke. Correct this by substantially moving the woman's entire writing hand and blue pen INTO the grid, so the pen tip is unmistakably ON AN INK LINE and she is actively writing. Repose the writing hand closer to the center of the sheet, hold the pen more upright in a natural writing grip, and show its tip physically touching the halfway point of a newly drawn blue curved O INSIDE THE BOTTOM-CENTER CELL. This O is half drawn: a semicircle with the tip exactly meeting one endpoint, with no space between pen tip and ink. Rest the little-finger side of the hand naturally against the sheet while writing. Keep the other existing grid marks. Preserve the same woman, clothing, lighting, room and camera. It is essential that the visible pen tip meets the unfinished ink mark on the paper, rather than being poised in midair or next to the symbol."
+      ],
+      "actual_dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 1901255
+    },
+    {
+      "id": "04-hovering",
+      "group": "hovering",
+      "subject": "A white man aged about 35 with curly red hair and a short ginger beard, in a blue sweatshirt, at a birch desk in a modest bedroom.",
+      "camera": "Webcam slightly below face level centered across the far end of the desk, mildly wide-angle view tilted downward enough to show a large paper board in perspective.",
+      "quality": "Mediocre 480p streaming webcam look, visible block compression, slightly washed-out afternoon daylight and weak fine detail.",
+      "board": "Underlying position before occlusion: top row X, empty, O; middle row empty, X, empty; bottom row empty, O, empty.",
+      "action": "HOVERING, NOT DRAWING. His right forearm stretches diagonally over the paper, suspended about 8 cm above it, physically occluding the central square and some of the right column from the camera. He holds a pen visibly ABOVE the paper, tip separated from the surface by a clear air gap and soft cast shadow. Other grid segments and several marks remain visible around the arm. Do not make the arm transparent.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: A white man aged about 35 with curly red hair and a short ginger beard, in a blue sweatshirt, at a birch desk in a modest bedroom.\nCamera and composition: Webcam slightly below face level centered across the far end of the desk, mildly wide-angle view tilted downward enough to show a large paper board in perspective.\nWebcam image quality: Mediocre 480p streaming webcam look, visible block compression, slightly washed-out afternoon daylight and weak fine detail.\nGame configuration: Underlying position before occlusion: top row X, empty, O; middle row empty, X, empty; bottom row empty, O, empty.\nCritical action and visibility: HOVERING, NOT DRAWING. His right forearm stretches diagonally over the paper, suspended about 8 cm above it, physically occluding the central square and some of the right column from the camera. He holds a pen visibly ABOVE the paper, tip separated from the surface by a clear air gap and soft cast shadow. Other grid segments and several marks remain visible around the arm. Do not make the arm transparent.",
+      "file": "04-hovering.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-6eb8281a-4f51-4458-8945-64590db35dfd.png",
+      "editPrompts": [],
+      "actual_dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 1747723
+    },
+    {
+      "id": "05-hovering",
+      "group": "hovering",
+      "subject": "A Black woman aged about 68 with short grey hair and oval glasses, wearing a plum knitted sweater, at a warm oak table in a living room.",
+      "camera": "Webcam positioned high on the viewer's left, roughly 45-degree downward oblique view, face in the upper-right portion and paper centered in the lower part.",
+      "quality": "Overexposed budget 720p webcam look, bright window backlighting, slightly clipped highlights on the table, a mildly soft face but recognizable grid lines.",
+      "board": "Underlying position before occlusion: top row O, X, O; middle row X, X, empty; bottom row empty, O, empty.",
+      "action": "HOVERING, NOT DRAWING. Her left forearm and hand hover above the lower half of the paper, hiding portions of two bottom-row cells. The pen is held loosely above the center-bottom area without touching. A clearly visible air gap and cast shadow establish that her hand is raised. Several squares remain visible above her arm.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: A Black woman aged about 68 with short grey hair and oval glasses, wearing a plum knitted sweater, at a warm oak table in a living room.\nCamera and composition: Webcam positioned high on the viewer's left, roughly 45-degree downward oblique view, face in the upper-right portion and paper centered in the lower part.\nWebcam image quality: Overexposed budget 720p webcam look, bright window backlighting, slightly clipped highlights on the table, a mildly soft face but recognizable grid lines.\nGame configuration: Underlying position before occlusion: top row O, X, O; middle row X, X, empty; bottom row empty, O, empty.\nCritical action and visibility: HOVERING, NOT DRAWING. Her left forearm and hand hover above the lower half of the paper, hiding portions of two bottom-row cells. The pen is held loosely above the center-bottom area without touching. A clearly visible air gap and cast shadow establish that her hand is raised. Several squares remain visible above her arm.",
+      "file": "05-hovering.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-d1c560fa-7c3b-4ad4-be15-fc3605f85528.png",
+      "editPrompts": [
+        "Edit this webcam photo with one precise pose correction. Preserve the same elderly woman, face, clothes, room, camera angle, overexposed webcam image quality, table and sheet of paper. Her arm must genuinely OCCLUDE the tic-tac-toe game. Repose the arm currently holding the pen into a long reach ACROSS THE CENTER OF THE PAPER toward its far lower-right edge. The opaque forearm and wrist pass IN FRONT OF the center of the grid, covering and hiding about one-third of its cells and several line segments from the camera. Her hand is open with naturally relaxed fingers beyond the grid. The entire reaching forearm and hand HOVER 5 to 8 cm above the paper without touching it; the gap is visible from the side, with a separated soft cast shadow. Remove the pen from her hand and place it on bare tabletop outside the paper. She is paused, not writing. Keep the non-reaching hand at her cheek. Grid and existing X/O marks remain in place under the arm, only visible portions are shown; no grid lines drawn on or through the arm. Anatomically coherent arm and hand. Make the arm-over-grid occlusion visually obvious."
+      ],
+      "actual_dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 2142173
+    },
+    {
+      "id": "06-hovering",
+      "group": "hovering",
+      "subject": "A Middle Eastern man aged about 24 with wavy black hair, clean-shaven, wearing a charcoal T-shirt, alone at a grey desk in a small apartment.",
+      "camera": "Webcam on a shelf at the viewer's right, near side-on three-quarter view looking downward about 35 degrees; his side profile remains visible and the paper is rotated diagonally in the frame.",
+      "quality": "Cheap 360p webcam stream appearance, distinctly coarse pixels, greenish white balance from overhead fluorescent light, mild digital noise and smeared edges.",
+      "board": "Underlying position before occlusion: top row empty, X, empty; middle row O, X, empty; bottom row empty, empty, O.",
+      "action": "HOVERING, NOT DRAWING. His right arm reaches horizontally across the middle of the paper while lifted above it, occluding much of the middle row. He holds a pencil poised in mid-air above a square, with an obvious gap between tip and paper. His wrist and forearm cast a shadow; the remaining top and bottom portions of the grid are recognizable.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: A Middle Eastern man aged about 24 with wavy black hair, clean-shaven, wearing a charcoal T-shirt, alone at a grey desk in a small apartment.\nCamera and composition: Webcam on a shelf at the viewer's right, near side-on three-quarter view looking downward about 35 degrees; his side profile remains visible and the paper is rotated diagonally in the frame.\nWebcam image quality: Cheap 360p webcam stream appearance, distinctly coarse pixels, greenish white balance from overhead fluorescent light, mild digital noise and smeared edges.\nGame configuration: Underlying position before occlusion: top row empty, X, empty; middle row O, X, empty; bottom row empty, empty, O.\nCritical action and visibility: HOVERING, NOT DRAWING. His right arm reaches horizontally across the middle of the paper while lifted above it, occluding much of the middle row. He holds a pencil poised in mid-air above a square, with an obvious gap between tip and paper. His wrist and forearm cast a shadow; the remaining top and bottom portions of the grid are recognizable.",
+      "file": "06-hovering.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-e7fe8715-37d2-4b1a-aafe-d48aa98bf627.png",
+      "editPrompts": [
+        "Edit this webcam photo with one precise pose correction. Preserve this young man's identity, charcoal shirt, room, oblique webcam angle, greenish noisy low-quality webcam rendering, table and paper. Change the pencil-holding arm from a bent writing pose into a reach diagonally ACROSS THE MIDDLE of the paper, with his hand extending beyond the lower-right part of the grid. His raised forearm physically blocks and HIDES the central square and parts of the right column, about 40 percent of the game, from the webcam. The forearm is opaque and no symbols show through it. His hand is open, palm downward, fingers relaxed, hovering about 7 cm above the paper; a visible air gap and soft offset shadow show that the arm is suspended. Remove the pencil from his hand and put it on the table beside the sheet. Keep his other hand at his cheek. He is contemplating the board, not drawing or touching the paper. Preserve the visible existing X/O marks and grid geometry, with parts now occluded naturally behind the arm. Realistic anatomy, no extra limbs."
+      ],
+      "actual_dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 1805998
+    },
+    {
+      "id": "07-finished",
+      "group": "finished",
+      "subject": "An East Asian woman aged about 30 with a straight black bob, in a teal long-sleeve shirt, alone at a white table in a bright apartment.",
+      "camera": "High centered webcam looking downward at about 50 degrees, near-symmetrical front view showing her full face above the paper and all of the board below.",
+      "quality": "Premium 4K webcam appearance, very crisp but ordinary natural image, accurate neutral daylight colors and low noise.",
+      "board": "Exactly top row X, O, X; middle row X, O, O; bottom row O, X, X. All nine symbols legible; a completed draw.",
+      "action": "DONE DRAWING. Both hands rest in her lap entirely away from the paper. The pen lies beside the paper, completely outside its edges. The entire grid, all nine cells, every mark, and the whole sheet are fully visible without any hand, arm, object or shadow hiding them. She looks down at the finished game.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: An East Asian woman aged about 30 with a straight black bob, in a teal long-sleeve shirt, alone at a white table in a bright apartment.\nCamera and composition: High centered webcam looking downward at about 50 degrees, near-symmetrical front view showing her full face above the paper and all of the board below.\nWebcam image quality: Premium 4K webcam appearance, very crisp but ordinary natural image, accurate neutral daylight colors and low noise.\nGame configuration: Exactly top row X, O, X; middle row X, O, O; bottom row O, X, X. All nine symbols legible; a completed draw.\nCritical action and visibility: DONE DRAWING. Both hands rest in her lap entirely away from the paper. The pen lies beside the paper, completely outside its edges. The entire grid, all nine cells, every mark, and the whole sheet are fully visible without any hand, arm, object or shadow hiding them. She looks down at the finished game.",
+      "file": "07-finished.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-1f8d6af5-2126-4ab0-983a-28b32cb21e6b.png",
+      "editPrompts": [],
+      "actual_dimensions": [
+        1312,
+        1199
+      ],
+      "bytes": 1986747
+    },
+    {
+      "id": "08-finished",
+      "group": "finished",
+      "subject": "A white woman aged about 50 with shoulder-length curly auburn hair, wearing a navy striped top, alone at a dark kitchen table.",
+      "camera": "Webcam placed far to the viewer's left with a broad diagonal view across the table, about 30 degrees downward, her three-quarter face visible and the sheet entirely in frame.",
+      "quality": "Older 600p webcam look with mild lens haze and low contrast, warm incandescent room lighting, subtly amber color cast, modestly soft detail while every grid mark remains readable.",
+      "board": "Exactly top row O, O, O; middle row X, X, empty; bottom row X, empty, empty. A completed O win, with no line drawn across the winning row.",
+      "action": "DONE DRAWING. Her arms are folded against her chest, clearly above and behind the table, far from the sheet. A pencil lies on the table outside the paper. Entire sheet and all nine grid cells are completely visible and unobstructed. She studies the board calmly.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: A white woman aged about 50 with shoulder-length curly auburn hair, wearing a navy striped top, alone at a dark kitchen table.\nCamera and composition: Webcam placed far to the viewer's left with a broad diagonal view across the table, about 30 degrees downward, her three-quarter face visible and the sheet entirely in frame.\nWebcam image quality: Older 600p webcam look with mild lens haze and low contrast, warm incandescent room lighting, subtly amber color cast, modestly soft detail while every grid mark remains readable.\nGame configuration: Exactly top row O, O, O; middle row X, X, empty; bottom row X, empty, empty. A completed O win, with no line drawn across the winning row.\nCritical action and visibility: DONE DRAWING. Her arms are folded against her chest, clearly above and behind the table, far from the sheet. A pencil lies on the table outside the paper. Entire sheet and all nine grid cells are completely visible and unobstructed. She studies the board calmly.",
+      "file": "08-finished.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-b2f5f136-a8d7-449e-836c-e7f9e28664e9.png",
+      "editPrompts": [],
+      "actual_dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 2009944
+    },
+    {
+      "id": "09-finished",
+      "group": "finished",
+      "subject": "A South Asian man aged about 45 with a shaved head and neat black moustache, wearing a pale linen shirt, alone at a scratched wooden desk.",
+      "camera": "Webcam mounted at the viewer's right with a steep 65-degree downward angle, almost overhead but still showing his bowed face and upper torso along the upper-left of the frame; paper large and completely visible.",
+      "quality": "Midrange 900p webcam appearance, strong in-camera sharpening halos and slightly oversaturated colors, uneven mixed cool daylight and warm indoor lighting.",
+      "board": "Exactly top row X, O, O; middle row empty, X, empty; bottom row empty, empty, X. A completed diagonal X win, with no extra victory stroke.",
+      "action": "DONE DRAWING. He leans back with both hands resting on the chair armrests away from the table. A black pen rests to the side well outside the paper. Whole sheet, all cell boundaries and every X and O fully exposed, with no occlusion.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: A South Asian man aged about 45 with a shaved head and neat black moustache, wearing a pale linen shirt, alone at a scratched wooden desk.\nCamera and composition: Webcam mounted at the viewer's right with a steep 65-degree downward angle, almost overhead but still showing his bowed face and upper torso along the upper-left of the frame; paper large and completely visible.\nWebcam image quality: Midrange 900p webcam appearance, strong in-camera sharpening halos and slightly oversaturated colors, uneven mixed cool daylight and warm indoor lighting.\nGame configuration: Exactly top row X, O, O; middle row empty, X, empty; bottom row empty, empty, X. A completed diagonal X win, with no extra victory stroke.\nCritical action and visibility: DONE DRAWING. He leans back with both hands resting on the chair armrests away from the table. A black pen rests to the side well outside the paper. Whole sheet, all cell boundaries and every X and O fully exposed, with no occlusion.",
+      "file": "09-finished.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-ad7704ba-e934-4610-be19-98bb952fe27e.png",
+      "editPrompts": [],
+      "actual_dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 2320299
+    },
+    {
+      "id": "10-finished",
+      "group": "finished",
+      "subject": "A Latino man aged about 75 with swept-back grey hair and large square glasses, wearing a moss-green polo, alone at a cream table in a modest dining room.",
+      "camera": "Webcam a little left of center at chest height across the table, gentle downward 20-degree view, wide enough to show his face and the entire paper with a clearly readable perspective grid.",
+      "quality": "Very old 240p webcam aesthetic: desaturated near-monochrome colors, coarse low-resolution detail, slight analog-style luminance noise and subtle interlacing. The bold black board marks are still distinguishable.",
+      "board": "Exactly top row O, X, empty; middle row O, X, empty; bottom row empty, X, empty. A completed vertical X win in the center column, no strike-through line.",
+      "action": "DONE DRAWING. He has finished marking the board and rests both hands on his knees below the table, away from the sheet. Pen placed off to one side outside the paper. Whole sheet and the complete 3 by 3 grid are fully visible with no hand or arm occlusion.",
+      "prompt": "Use case: photorealistic-natural. Generate exactly ONE standalone landscape image, a candid webcam frame of ONE adult sitting alone at a desk playing both sides of tic-tac-toe on a sheet of paper. The frame comes FROM the webcam: do not show a camera device or a laptop screen displaying the scene. Show the person's face or clear side profile, upper body, the desk and the paper game in the same frame. Authentic home webcam snapshot, ordinary clothing, unstaged concentration, natural human anatomy, realistic pen grip and fingers, no other people, no collage, no split screen, no captions, no interface, no watermark. The paper contains ONE hand-drawn standard 3 by 3 tic-tac-toe grid made from exactly two vertical and two horizontal lines with X and O marks only. Grid and symbols lie flat on the paper with coherent perspective. Board descriptions are row by row as seen in the image (top row, middle row, bottom row); an empty cell means no mark. Prioritize the requested activity and board visibility.\nSubject and setting: A Latino man aged about 75 with swept-back grey hair and large square glasses, wearing a moss-green polo, alone at a cream table in a modest dining room.\nCamera and composition: Webcam a little left of center at chest height across the table, gentle downward 20-degree view, wide enough to show his face and the entire paper with a clearly readable perspective grid.\nWebcam image quality: Very old 240p webcam aesthetic: desaturated near-monochrome colors, coarse low-resolution detail, slight analog-style luminance noise and subtle interlacing. The bold black board marks are still distinguishable.\nGame configuration: Exactly top row O, X, empty; middle row O, X, empty; bottom row empty, X, empty. A completed vertical X win in the center column, no strike-through line.\nCritical action and visibility: DONE DRAWING. He has finished marking the board and rests both hands on his knees below the table, away from the sheet. Pen placed off to one side outside the paper. Whole sheet and the complete 3 by 3 grid are fully visible with no hand or arm occlusion.",
+      "file": "10-finished.png",
+      "source": "/Users/ulysse/.codex/generated_images/01a0e7d1-eb85-7c41-a314-cf335528b264/exec-2bd55aa2-0642-40c2-84e2-99f7ad4e603b.png",
+      "editPrompts": [],
+      "actual_dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 1873215
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "frame-webcam",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Play paper tic-tac-toe with automatic webcam capture and GPT-6 Astra.",
+  "scripts": {
+    "dev": ".venv/bin/python -m server --reload",
+    "start": ".venv/bin/python -m server",
+    "test": "node --test tests/*.test.js"
+  }
+}

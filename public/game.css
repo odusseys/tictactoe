@@ -1,0 +1,35 @@
+.game-layout { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 1fr); gap: 22px; align-items: stretch; }
+.game-panel { padding: 25px; background: #fff; border: 1px solid var(--line); border-radius: 17px; }
+.turn-status { min-height: 118px; }
+.turn-status h2 { display: flex; align-items: center; gap: 9px; font-family: Georgia, 'Times New Roman', serif; font-weight: 400; letter-spacing: -.5px; font-size: 27px; line-height: 1.2; margin: 0 0 10px; }
+.turn-status p { color: #65735e; font-size: 14px; line-height: 1.6; margin: 0 0 18px; }
+.turn-status[data-warning="true"] h2 { color: var(--warning); }
+.spinner { width: 21px; height: 21px; flex: 0 0 auto; border: 2px solid #dce5d2; border-top-color: #658a42; border-radius: 50%; animation: spin .85s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.retry-button { background: #fff1e3; color: #91410a; border-color: #ebcbaa; margin: 0 0 18px; }
+.retry-button:hover { background: #ffe4c9; }
+.board-grid { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.board-cell { height: 84px; text-align: center; vertical-align: middle; border: 1px solid #dce3d3; position: relative; background: #f5f7f0; padding: 9px 3px; }
+.cell-mark { display: block; font-size: 36px; font-weight: 550; line-height: 1.1; }
+.cell-hint { display: block; margin-top: 4px; font-size: 10px; color: #b33129; letter-spacing: 1px; font-weight: 600; }
+.cell-hint:empty { display: none; }
+.is-x .cell-mark, .legend-x { color: #557446; }
+.is-o .cell-mark, .legend-o { color: #326e82; }
+.board-cell.is-empty { background: #fcfdf9; }
+.is-empty .cell-mark { color: #c0cbb4; }
+.board-cell.is-pending { background: #fff0ee; box-shadow: inset 0 0 0 2px #c65045; }
+.is-pending .cell-mark { color: #b33129; }
+.board-cell.is-winning { background: #deedcc; box-shadow: inset 0 -4px #7c9d54; }
+.board-legend { display: flex; gap: 24px; margin-top: 17px; font-size: 12px; color: #65735e; }
+.board-legend b { font-size: 16px; margin-right: 4px; }
+.board-note { font-size: 12px; line-height: 1.5; color: #65735e; margin: 10px 0 0; }
+[data-status="finished"] .turn-status h2 { color: #46652c; }
+@media (max-width: 800px) {
+  .game-layout { grid-template-columns: 1fr; gap: 17px; }
+  .game-panel { padding: 22px; }
+  .turn-status { min-height: 0; }
+}
+@media (max-width: 420px) {
+  .game-panel { padding: 19px; }
+  .turn-status h2 { font-size: 25px; }
+}

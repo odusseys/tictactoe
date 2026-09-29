@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+.venv-vision/
+__pycache__/
+.DS_Store
+output/
+*.log

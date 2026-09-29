@@ -1,0 +1,65 @@
+:root {
+  color-scheme: light;
+  --ink: #1d2925;
+  --paper: #f7f8f4;
+  --lime: #d7edb0;
+  --line: #e0e5dd;
+  --warning: #a64b09;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  color: var(--ink);
+  background: var(--paper);
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+[hidden] { display: none !important; }
+button { font: inherit; cursor: pointer; }
+button:disabled { cursor: default; opacity: .5; }
+button:focus-visible { outline: 3px solid #7a9f48; outline-offset: 4px; }
+svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex: 0 0 auto; }
+.app-shell { max-width: 1170px; margin: auto; padding: 40px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 1.8px; margin: 0 0 22px; color: #68755f; }
+.button { display: inline-flex; align-items: center; justify-content: center; border: 1px solid transparent; border-radius: 8px; min-height: 44px; padding: 11px 18px; font-size: 14px; font-weight: 550; }
+.primary { background: var(--lime); color: #233222; }
+.primary:hover:not(:disabled) { background: #c7e392; }
+.secondary { background: #111e18e8; color: #f2f5ed; border-color: #9ead9770; }
+.secondary:hover { background: #293b30; }
+body:has(dialog[open]) { overflow: hidden; }
+.how-to-play { width: min(440px, calc(100% - 32px)); max-height: calc(100dvh - 32px); overflow: auto; padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: var(--paper); color: var(--ink); box-shadow: 0 24px 90px #10171640; }
+.how-to-play::backdrop { background: #101716a6; backdrop-filter: blur(5px); }
+.how-to-play h2 { margin: 0 0 22px; font-family: Georgia, 'Times New Roman', serif; font-size: 28px; font-weight: 400; }
+.player-role { display: flex; align-items: center; gap: 18px; padding: 18px; border-radius: 12px; background: #e8f1f2; color: #24576a; }
+.player-mark { flex: 0 0 auto; font-size: 76px; font-weight: 650; line-height: 1; }
+.player-role p { margin: 0; font-size: 15px; line-height: 1.5; }
+.player-role .player-label { margin-bottom: 3px; font-size: 25px; font-weight: 600; }
+.how-to-play-help { margin: 22px 0 0; font-size: 16px; line-height: 1.65; }
+.how-to-play form { margin-top: 24px; }
+.how-to-play .button { width: 100%; min-height: 48px; }
+.camera-card { display: flex; flex-direction: column; border-radius: 17px; border: 1px solid #dfe4dc; overflow: hidden; background: #101716; }
+.viewfinder { flex: 1; min-height: 480px; position: relative; color: #f0f2e8; display: grid; place-items: center; }
+.crop-setting { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 15px 18px; border-top: 1px solid #314139; color: #f0f2e8; cursor: pointer; }
+.crop-setting-title { display: block; font-size: 14px; font-weight: 550; }
+.crop-setting small { display: block; margin-top: 4px; color: #b5c2b6; font-size: 12px; line-height: 1.4; }
+.crop-setting input { appearance: none; flex: 0 0 40px; width: 40px; height: 24px; margin: 0; padding: 3px; border: 1px solid #718276; border-radius: 20px; background: #34483b; cursor: pointer; }
+.crop-setting input::before { content: ''; display: block; width: 16px; height: 16px; border-radius: 50%; background: #edf3e9; transition: transform .15s; }
+.crop-setting input:checked { background: var(--lime); border-color: var(--lime); }
+.crop-setting input:checked::before { transform: translateX(16px); background: #253523; }
+.crop-setting input:focus-visible { outline: 3px solid var(--lime); outline-offset: 4px; }
+video { width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0; background: #080e0b; }
+.camera-guide { position: relative; max-width: 350px; margin: 80px 28px; padding: 17px 22px; border-radius: 12px; background: #101716d9; font-size: 21px; line-height: 1.45; text-align: center; text-wrap: balance; pointer-events: none; }
+.camera-label { position: absolute; left: 18px; top: 18px; display: flex; align-items: center; gap: 8px; padding: 8px 11px; border-radius: 6px; background: #101716d9; font-size: 12px; }
+.camera-label > span:first-child { width: 6px; height: 6px; border-radius: 50%; background: #b2b8ac; }
+.camera-label[data-live="true"] > span:first-child { background: #cae9a4; }
+.camera-actions { position: absolute; bottom: 18px; right: 18px; display: flex; gap: 8px; }
+@media (max-width: 800px) {
+  .app-shell { padding: 20px; }
+  .viewfinder { min-height: 300px; }
+}
+@media (max-width: 420px) {
+  .app-shell { padding: 12px; }
+  .camera-guide { font-size: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

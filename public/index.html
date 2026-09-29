@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101716">
+    <meta name="description" content="Play tic-tac-toe on paper with an AI opponent watching your board.">
+    <title>TicAI</title>
+    <link rel="icon" href="/favicon.svg?v=ticai" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/game.css">
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <dialog class="how-to-play" id="how-to-play" aria-labelledby="how-to-play-title" aria-describedby="player-role how-to-play-help">
+      <h2 id="how-to-play-title">How to play</h2>
+      <div class="player-role" id="player-role">
+        <span class="player-mark" aria-hidden="true">O</span>
+        <div><p class="player-label">You play <strong>O</strong>.</p><p>You always go first.</p></div>
+      </div>
+      <p class="how-to-play-help" id="how-to-play-help">You may have noticed I have no arms. When it’s my turn to play, I’ll need you to mark my <strong>X</strong> on the board. I’ll show you where.</p>
+      <form method="dialog"><button class="button primary" autofocus>Got it — open camera</button></form>
+    </dialog>
+    <main class="app-shell">
+      <h1 class="visually-hidden">Paper tic-tac-toe</h1>
+      <div class="game-layout" id="game-workspace" data-status="idle">
+        <section class="camera-card" aria-label="Live camera">
+          <div class="viewfinder">
+            <video id="camera-video" autoplay muted playsinline aria-label="Live camera preview" hidden></video>
+            <div class="camera-label" id="camera-label"><span aria-hidden="true"></span><span id="camera-status">Camera off</span></div>
+            <p class="camera-guide" id="camera-guide">Draw an empty 3x3 grid and make sure it's well visible</p>
+            <div class="camera-actions">
+              <button class="button secondary" id="retry-camera" hidden>Retry camera</button>
+              <button class="button primary" id="start-game" disabled>Start game</button>
+              <button class="button secondary" id="end-game" hidden>End game</button>
+            </div>
+          </div>
+          <label class="crop-setting" for="crop-paper">
+            <span><span class="crop-setting-title">Crop to paper</span><small id="crop-paper-help">Applies to the next camera capture.</small></span>
+            <input id="crop-paper" type="checkbox" role="switch" aria-describedby="crop-paper-help" checked>
+          </label>
+        </section>
+        <section class="game-panel" aria-label="AI opponent">
+          <p class="eyebrow">AI OPPONENT · X</p>
+          <div class="turn-status" id="turn-status" aria-live="polite" aria-atomic="true">
+            <h2 id="turn-title"><svg id="warning-icon" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="m12 3 10 18H2L12 3Z"/><path d="M12 9v5m0 3v.1"/></svg><span id="thinking-indicator" class="spinner" aria-hidden="true" hidden></span><span id="turn-title-text">You go first.</span></h2>
+            <p id="turn-detail">You’re O. I’m X. You’ll draw both our moves on paper.</p>
+          </div>
+          <button class="button retry-button" id="retry-game" hidden>Retry</button>
+          <div id="game-board"></div>
+          <div class="board-legend"><span><b class="legend-o">O</b> You</span><span><b class="legend-x">X</b> AI</span></div>
+          <p class="board-note">The grid faces you. Red shows the X to draw.</p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
